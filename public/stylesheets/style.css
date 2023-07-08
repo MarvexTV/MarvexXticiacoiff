@@ -1,0 +1,76 @@
+
+body {
+  background-color: bisque;
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255, 255, 255);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: bisque;
+}
+
+#active {
+  background-color: bisque;
+}
+
+#carousel{
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-body{
+  background-color: white;
+}
+.form-control{
+  background-color: white;
+}
+.imgService{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  width: 200px;
+  height: 150px;
+}
+.service{
+  width: 28%;
+  margin: 25px;
+}
+.services{
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerService{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 2px solid brown;*/
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
